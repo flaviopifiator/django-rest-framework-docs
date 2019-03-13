@@ -14,7 +14,7 @@ VIEWSET_METHODS = {
 
 
 class ApiEndpoint(object):
-
+    
     def __init__(self, pattern, parent_regex=None, drf_router=None):
         self.drf_router = drf_router
         self.pattern = pattern
